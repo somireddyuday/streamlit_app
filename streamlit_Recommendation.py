@@ -31,7 +31,7 @@ add_selectbox = st.sidebar.radio(
     ("Item_to_Item_recommended_movies", "User_to_User_recommended_movies","Movie_to_Movie_recommended_movies","New_User_Movie_recommended_movies")
 )
 
-merged_data = pd.read_csv(r'C:\Users\somir\Desktop\streamlit_app\Datasets\merged_data.csv')
+merged_data = pd.read_csv('https://github.com/somireddyuday/streamlit_app/tree/master/Datasets/merged_data.csv')
 
 
 # In[14]:
@@ -120,8 +120,8 @@ from scipy.spatial.distance import cosine, correlation
 # In[20]:
 
 
-df_movies  = pd.read_csv(r'C:\Users\somir\Desktop\streamlit_app\Datasets\movies.csv')
-df_ratings = pd.read_csv(r'C:\Users\somir\Desktop\streamlit_app\Datasets\ratings.csv')
+df_movies  = pd.read_csv('https://github.com/somireddyuday/streamlit_app/tree/master/Datasets/movies.csv')
+df_ratings = pd.read_csv('https://github.com/somireddyuday/streamlit_app/tree/master/Datasets/ratings.csv')
 
 
 # In[21]:
